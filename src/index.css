@@ -1,1 +1,20 @@
 @import 'tailwindcss';
+
+@theme {
+  --color-dark-blue: #01204f;
+  --color-sky-blue: #0282f2;
+  --color-soft-blue: #8ad0f4;
+  --color-soft-white: #f5f5f5;
+  --color-soft-gray: #b0b0b0;
+  --color-gray-blue: #465e8e;
+  --color-white: #f0f7ff;
+  --color-gray-white: #c2c2c3;
+}
+
+:root,
+body,
+html {
+  display: flex;
+  box-sizing: border-box;
+  background-color: #01204f;
+}
