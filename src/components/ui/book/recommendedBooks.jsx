@@ -9,7 +9,7 @@ export default function RecommendedBooks() {
     'The Prince',
     'The Kybalion',
     'The Raven',
-    "The emperor's new mind",
+    "The Emperor's New Mind",
     'The Wisdom of Psychopaths',
   ]
 

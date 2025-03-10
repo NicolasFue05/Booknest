@@ -1,6 +1,6 @@
 const Tag = ({ Text }) => {
   if (Text.length === 0) return null
-  const textContainerSize = Text.length >= 15 ? 'w-40' : 'w-25'
+  const textContainerSize = Text.length >= 15 ? 'w-40' : 'w-30'
   const textFormat = `❧ ${Text} ☙`
   const colors = [
     'bg-red-200',

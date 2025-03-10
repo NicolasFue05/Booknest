@@ -4,6 +4,7 @@ import LeftTopPanel from './components/ui/panel/leftPanel'
 import Home from './pages/home/HomePage'
 import Bar from './components/ui/features/bar'
 import BooksPage from './pages/books/BooksPage'
+import LibraryPage from './pages/library/LibraryPage'
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         {/* <Switch> */}
         <Route path="/" index element={<Home />} />
         <Route path="/books" element={<BooksPage />} />
-        <Route path="/library" element={'library'} />
+        <Route path="/library" element={<LibraryPage />} />
         <Route path="/about" element={'about'} />
         {/* </Switch> */}
       </Routes>
