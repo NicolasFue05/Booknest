@@ -42,10 +42,12 @@ html {
   z-index: 1;
 }
 
-#home::-webkit-scrollbar {
+#home::-webkit-scrollbar,
+#books::-webkit-scrollbar {
   display: none;
 }
 
-#home {
+#home,
+#books {
   scrollbar-width: none;
 }
