@@ -18,14 +18,21 @@
       </ul>
     </li>
     <li>
+      <a href="#pages">Pages</a>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#books">Books</a></li>
+        <li><a href="#library">Library</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </li>
+    <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#pages">Pages</a></li>
   </ol>
 </details>
 <hr/>
