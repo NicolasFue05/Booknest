@@ -79,6 +79,20 @@ The responsive version of this website is coming soon and may have the following
   </a>
 </div>
 
+## Pages
+### Home Page
+The home page has some recommended books and some of the most read books.
+<br/>
+Showing a couple of books from our local database:
+- The Prince
+- The Kybalion
+- The Empero's New Mind
+- The Raven
+
+<div align='center'>
+  ![image](https://github.com/user-attachments/assets/29bfd441-5bbc-42cd-8f4a-4053a26e1ff8)
+</div>
+
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
@@ -91,31 +105,30 @@ Basic knowledge of React, tailwindCSS and JS
 Install the npm global
 * npm
   ```sh
-  npm install npm@latest -g
-  ```
+npm install npm@latest -g
+```
 
 ## Installation
 
 Feel free to clone this repository and work from your local repository.
 Here are some small commands that might help you.
-
-```bash
-  npm install booknest
-  cd booknest
-```
 1. Clone the repo
   ```sh
   git clone https://github.com/NicolasFue05/Booknest.git
    ```
 2. Install NPM packages
-   ```sh
-   npm install booknest
-   ```
-3. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
+```sh
+npm install booknest
+```
+3. change to the dir
+```bash
+cd booknest
+```
+4. Change git remote url to avoid accidental pushes to base project
+```sh
+git remote set-url origin github_username/repo_name
+git remote -v # confirm the changes
+```
 
 <div align="right">
   <a href="top">
