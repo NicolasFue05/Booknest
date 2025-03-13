@@ -3,6 +3,7 @@ import BookButton from '../features/buttons/bookButton'
 import Tag from '../features/tags/tag'
 import PageProgress from '../features/progress/pageProgress'
 import SaveButton from '../features/buttons/saveChanges'
+import ProgressBar from '../features/progress/progressBar'
 
 export default function BookInformation({ book, closeBookInfo }) {
   const [isClosed, setIsClosed] = useState(false)
@@ -80,7 +81,9 @@ export default function BookInformation({ book, closeBookInfo }) {
             </div>
 
             <div className="flex flex-col gap-3">
-              <p className="text-xl font-light italic">{book.book.author.name}</p>
+              <p className="text-xl font-light italic">
+                {book.book.author.name}
+              </p>
               <p className="font-light text-xl max-w-130">
                 {book.book.synopsis}
               </p>
@@ -92,11 +95,17 @@ export default function BookInformation({ book, closeBookInfo }) {
             </div>
 
             {isLibraryPage && (
-              <PageProgress
-                bookProgress={parseBookProgress}
-                setPageProgress={setPageProgress}
-                setCapProgress={setCapProgress}
-              />
+              <>
+                <PageProgress
+                  bookProgress={parseBookProgress}
+                  setPageProgress={setPageProgress}
+                  setCapProgress={setCapProgress}
+                />
+                <ProgressBar
+                  current={pageProgress}
+                  limit={parseBookProgress.book.pages}
+                />
+              </>
             )}
 
             <div className="absolute bottom-8 right-8 flex flex-row gap-x-4">
