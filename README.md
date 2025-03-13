@@ -1,12 +1,11 @@
-# BookNest
+<a id="top"></a>
 
-Website to save the progress of your books.
-// Image (HomePage)
+<h3 align="center">BookNest</h3>
 
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
-  <ol>
+  <ul>
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
@@ -21,15 +20,29 @@ Website to save the progress of your books.
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
+    <li><a href="#pages">Pages</a></li>
+  </ul>
 </details>
 
 ## About the project
+
+Website to save the progress of your books.
+One day I was just reading a book and needed something to keep track of the pages I was reading along with the chapter I was on, so I decided to create BookNest to practice my React skills and have something personalized for how I wanted to keep track of my books.
+
+<div align="center">
+  <img src="" alt="planning-photo">
+</div>
+
+### Built With
+
+- [![Next][Next.js]][Next-url]
+- [![React][React.js]][React-url]
+- [![Vue][Vue.js]][Vue-url]
+- [![Angular][Angular.io]][Angular-url]
+- [![Svelte][Svelte.dev]][Svelte-url]
+- [![Laravel][Laravel.com]][Laravel-url]
+- [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+- [![JQuery][JQuery.com]][JQuery-url]
 
 ## Soon
 
