@@ -20,10 +20,10 @@
     <li>
       <a href="#pages">Pages</a>
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#books">Books</a></li>
-        <li><a href="#library">Library</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="#home-page">Home</a></li>
+        <li><a href="#books-page">Books</a></li>
+        <li><a href="#library-page">Library</a></li>
+        <li><a href="#about-page">About</a></li>
       </ul>
     </li>
     <li>
@@ -124,7 +124,7 @@ The library page allows you to view your saved books and their progress, and you
   <img src="https://github.com/user-attachments/assets/8ae0360b-a3f1-4d7c-9f03-02c254f89c0c">
 </div>
 
-### About
+### About Page
 > [!IMPORTANT]  
 > This page will be added soon
 <div align="right">
