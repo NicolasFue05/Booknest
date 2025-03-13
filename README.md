@@ -33,7 +33,7 @@ One day I was just reading a book and needed something to keep track of the page
   <img src="https://github.com/user-attachments/assets/7186159c-2e00-43fc-ba8a-1a6ab2d5104e" alt="planning-photo">
 </div>
 
-### 📍Technologies
+### Built With
 
 - [React.JS](https://react.dev) uses [react-router-dom](https://reactrouter.com) for UI/UX
 - [TaildwinCSS](https://react.dev) uses [react-router-dom](https://tailwindcss.com/docs/installation/using-vite) Stylesheet
