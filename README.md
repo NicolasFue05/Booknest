@@ -30,7 +30,7 @@ Website to save the progress of your books.
 One day I was just reading a book and needed something to keep track of the pages I was reading along with the chapter I was on, so I decided to create BookNest to practice my React skills and have something personalized for how I wanted to keep track of my books.
 
 <div align="center">
-  <img src="" alt="planning-photo">
+  <img src="https://github.com/user-attachments/assets/7186159c-2e00-43fc-ba8a-1a6ab2d5104e" alt="planning-photo">
 </div>
 
 ### Built With
