@@ -50,8 +50,7 @@ One day I was just reading a book and needed something to keep track of the page
 
 
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/5dabfa4d-39ab-407a-8b29-d264285ec00b" alt="comming son">
-  Soon
+  <img src="https://github.com/user-attachments/assets/5dabfa4d-39ab-407a-8b29-d264285ec00b" width=50 height=50>
 </div>
 
 
