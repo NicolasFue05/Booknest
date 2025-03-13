@@ -90,7 +90,7 @@ Showing a couple of books from our local database:
 - The Raven
 
 <div align='center'>
-  <img src="https://github.com/user-attachments/assets/29bfd441-5bbc-42cd-8f4a-4053a26e1ff8"
+  <img src="https://github.com/user-attachments/assets/29bfd441-5bbc-42cd-8f4a-4053a26e1ff8">
 </div>
 
 ## Expanding the ESLint configuration
