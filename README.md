@@ -1,4 +1,4 @@
-<a id="top"></a>
+<a id="readme-top"></a>
 
 <h1 align="center">BookNest</h1>
 
@@ -57,7 +57,7 @@ One day I was just reading a book and needed something to keep track of the page
 - [ESLint](https://eslint.org) for Catch Errors [PrettierConf](#expanding-the-eslint-configuration)
 
 <div align="right">
-  <a href="#top">
+  <a href="#readme-top">
     Back to Top 🡩
   </a>
 </div>
@@ -89,7 +89,7 @@ The responsive version of this website is coming soon and may have the following
 </div>
 
 <div align="right">
-  <a href="#top">
+  <a href="#readme-top">
     Back to Top 🡩
   </a>
 </div>
@@ -128,7 +128,7 @@ The library page allows you to view your saved books and their progress, and you
 > [!IMPORTANT]  
 > This page will be added soon
 <div align="right">
-  <a href="#top">
+  <a href="#readme-top">
     Back to Top 🡩
   </a>
 </div>
@@ -175,7 +175,7 @@ git remote -v # confirm the changes
 ```
 
 <div align="right">
-  <a href="top">
+  <a href="readme-top">
     Back to Top 🡩
   </a>
 </div>
