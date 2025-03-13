@@ -25,9 +25,9 @@ export default function Progress({
 
   return (
     <div
-      className={`flex flex-row items-center mt-2 ${isPage ? 'gap-x-5' : 'gap-x-7'}`}
+      className='flex flex-row items-center mt-2 gap-x-5'
     >
-      <div>
+      <div className='w-40'>
         <span className="italic font-bold mr-2">
           Current {isPage ? 'Page' : 'Cap'}:
         </span>
