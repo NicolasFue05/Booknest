@@ -7,10 +7,12 @@ import SaveButton from '../features/buttons/saveChanges'
 export default function BookInformation({ book, closeBookInfo }) {
   const [isClosed, setIsClosed] = useState(false)
 
-  const currentPage = JSON.parse(localStorage.getItem(book.book.ISBN)).book
-    .pageProgress
-  const currentCap = JSON.parse(localStorage.getItem(book.book.ISBN)).book
-    .capProgress
+  const storedBook = localStorage.getItem(book.book.ISBN)
+    ? JSON.parse(localStorage.getItem(book.book.ISBN))
+    : null
+
+  const currentPage = storedBook ? storedBook.book.pageProgress : 0
+  const currentCap = storedBook ? storedBook.book.capProgress : 0
 
   const [pageProgress, setPageProgress] = useState(currentPage)
   const [capProgress, setCapProgress] = useState(currentCap)
@@ -78,17 +80,15 @@ export default function BookInformation({ book, closeBookInfo }) {
             </div>
 
             <div className="flex flex-col gap-3">
-              <p className="text-xl font-light italic">
-                {parseBookProgress.book.author}
-              </p>
+              <p className="text-xl font-light italic">{book.book.author.name}</p>
               <p className="font-light text-xl max-w-130">
-                {parseBookProgress.book.synopsis}
+                {book.book.synopsis}
               </p>
               <p className="text-xl">
                 <span className="font-medium">Pages: </span>
-                {parseBookProgress.book.pages}
+                {book.book.pages}
               </p>
-              <Tag Text={parseBookProgress.book.genre} />
+              <Tag Text={book.book.genre} />
             </div>
 
             {isLibraryPage && (
