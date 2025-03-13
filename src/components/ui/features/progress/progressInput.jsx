@@ -24,10 +24,8 @@ export default function Progress({
   }
 
   return (
-    <div
-      className='flex flex-row items-center mt-2 gap-x-5'
-    >
-      <div className='w-40'>
+    <div className="flex flex-row items-center mt-2 gap-x-5">
+      <div className="w-40">
         <span className="italic font-bold mr-2">
           Current {isPage ? 'Page' : 'Cap'}:
         </span>
