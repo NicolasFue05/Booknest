@@ -1,7 +1,7 @@
 <a id="top"></a>
 
 <h1 align="center">BookNest</h1>
-
+<hr/>
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -48,6 +48,7 @@ One day I was just reading a book and needed something to keep track of the page
     Back to Top 🡩
   </a>
 </div>
+<hr/>
 
 # Soon
 
@@ -80,6 +81,8 @@ The responsive version of this website is coming soon and may have the following
   </a>
 </div>
 
+<hr/>
+
 ## Pages
 
 ### Home Page
@@ -94,6 +97,7 @@ Showing a couple of books from our local database:
 <div align='center'>
   <img src="https://github.com/user-attachments/assets/29bfd441-5bbc-42cd-8f4a-4053a26e1ff8">
 </div>
+
 ### Book Page
 
 The books page contains all the books in the local database.
@@ -101,9 +105,13 @@ The books page contains all the books in the local database.
   <img src="https://github.com/user-attachments/assets/40e4772a-20dd-4319-81f7-85c83cd772e5">
 </div>
 
+<hr/>
+
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+<hr/>
 
 # Getting Started
 
@@ -144,6 +152,8 @@ git remote -v # confirm the changes
   </a>
 </div>
   
+<hr/>
+
 ## Created By
 
 - [@NicolasFue05](https://github.com/NicolasFue05)
