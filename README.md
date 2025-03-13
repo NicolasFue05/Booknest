@@ -1,6 +1,10 @@
 <a id="top"></a>
 
 <h1 align="center">BookNest</h1>
+
+> [!NOTE]  
+> Please note that this project is not finished yet, while testing it, you may experience certain inconveniences.
+
 <hr/>
 <details>
   <summary>Table of Contents</summary>
