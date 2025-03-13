@@ -51,6 +51,7 @@ One day I was just reading a book and needed something to keep track of the page
 ## Soon ![image](https://github.com/user-attachments/assets/5dabfa4d-39ab-407a-8b29-d264285ec00b)
 
 
+
 ### Filters
 
 The filters will cooming soon. In this case we have 3 diffent's kind of filters.
