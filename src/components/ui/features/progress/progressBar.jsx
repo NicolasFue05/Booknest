@@ -1,4 +1,4 @@
-export default function ProgressBar({ current, limit }){
+export default function ProgressBar({ current, limit }) {
   const progress = (current / limit) * 100 // Calcula el porcentaje
   const barWidth = (current / limit) * 220 // Calcula el ancho relativo a 220px
 
