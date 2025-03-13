@@ -105,8 +105,8 @@ Basic knowledge of React, tailwindCSS and JS
 Install the npm global
 * npm
   ```sh
-npm install npm@latest -g
-```
+  npm install npm@latest -g
+  ```
 
 ## Installation
 
