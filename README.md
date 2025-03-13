@@ -2,6 +2,8 @@
 
 <h1 align="center">BookNest</h1>
 
+<hr/>
+
 > [!NOTE]  
 > Please note that this project is not finished yet, while testing it, you may experience certain inconveniences.
 
@@ -115,6 +117,9 @@ The library page allows you to view your saved books and their progress, and you
   <img src="https://github.com/user-attachments/assets/8ae0360b-a3f1-4d7c-9f03-02c254f89c0c">
 </div>
 
+### About
+> [!IMPORTANT]  
+> This page will be added soon
 <div align="right">
   <a href="#top">
     Back to Top 🡩
