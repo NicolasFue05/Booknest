@@ -12,14 +12,11 @@ export default function LibraryPage() {
       // Parsear el libro guardado desde el JSON string
       const parsedBook = JSON.parse(savedBook)
 
-      // Comparar el ISBN guardado con el del libro en la lista
-      console.log(parsedBook.book.ISBN === book.book.ISBN)
       return parsedBook.book.ISBN === book.book.ISBN
     }
 
     return false
   })
-  console.log(savedBooks)
 
   return (
     <section className="library">

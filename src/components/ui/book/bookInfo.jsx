@@ -1,10 +1,19 @@
 import { useState } from 'react'
 import BookButton from '../features/buttons/bookButton'
 import Tag from '../features/tags/tag'
-import PageProgress from '../features/progress/currentPage'
+import PageProgress from '../features/progress/pageProgress'
+import SaveButton from '../features/buttons/saveChanges'
 
 export default function BookInformation({ book, closeBookInfo }) {
   const [isClosed, setIsClosed] = useState(false)
+
+  const currentPage = JSON.parse(localStorage.getItem(book.book.ISBN)).book
+    .pageProgress
+  const currentCap = JSON.parse(localStorage.getItem(book.book.ISBN)).book
+    .capProgress
+
+  const [pageProgress, setPageProgress] = useState(currentPage)
+  const [capProgress, setCapProgress] = useState(currentCap)
 
   const parseBookProgress = {
     book: {
@@ -15,22 +24,17 @@ export default function BookInformation({ book, closeBookInfo }) {
       year: book.book.year,
       pages: book.book.pages,
       genre: book.book.genre,
-      pageProgress: 0,
-      capProgress: 0,
+      pageProgress,
+      capProgress,
     },
   }
-
-  console.log(parseBookProgress)
 
   const handleCloseClick = () => {
     setIsClosed(true)
     closeBookInfo()
   }
 
-  // library
   const isLibraryPage = window.location.href.endsWith('library')
-  console.log(isLibraryPage)
-
   const isHigher = book.book.title.length >= 25 ? 'gap-x-12' : ''
   const formatTitle = (title) => (title.length > 25 ? 'h-25' : 'h-13 mb-2')
   const isSaved = localStorage.getItem(book.book.ISBN) ? true : false
@@ -75,23 +79,35 @@ export default function BookInformation({ book, closeBookInfo }) {
 
             <div className="flex flex-col gap-3">
               <p className="text-xl font-light italic">
-                {book.book.author.name}
+                {parseBookProgress.book.author}
               </p>
               <p className="font-light text-xl max-w-130">
-                {book.book.synopsis}
+                {parseBookProgress.book.synopsis}
               </p>
               <p className="text-xl">
                 <span className="font-medium">Pages: </span>
-                {book.book.pages}
+                {parseBookProgress.book.pages}
               </p>
-              <Tag Text={book.book.genre} />
+              <Tag Text={parseBookProgress.book.genre} />
             </div>
 
-            {isLibraryPage && <PageProgress bookProgress={parseBookProgress} />}
+            {isLibraryPage && (
+              <PageProgress
+                bookProgress={parseBookProgress}
+                setPageProgress={setPageProgress}
+                setCapProgress={setCapProgress}
+              />
+            )}
 
-            {/* Mover el botón a la parte inferior derecha */}
-            <div className="absolute bottom-8 right-8">
-              <BookButton Book={book} isSaved={isSaved} />
+            <div className="absolute bottom-8 right-8 flex flex-row gap-x-4">
+              {isLibraryPage && (
+                <SaveButton
+                  ISBN={parseBookProgress.book.ISBN}
+                  pageProgress={pageProgress}
+                  capProgress={capProgress}
+                />
+              )}
+              <BookButton Book={parseBookProgress} isSaved={isSaved} />
             </div>
           </div>
         </section>

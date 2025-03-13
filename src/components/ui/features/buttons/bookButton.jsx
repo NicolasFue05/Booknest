@@ -6,9 +6,22 @@ const BookButton = ({ Book, isSaved = false }) => {
   const [bookSaved, setBookSaved] = useState(isSaved)
 
   const buttonText = bookSaved ? 'Remove' : 'Save'
+  const parseBookProgress = {
+    book: {
+      ISBN: Book.book.ISBN,
+      title: Book.book.title,
+      author: Book.book.author,
+      synopsis: Book.book.synopsis,
+      year: Book.book.year,
+      pages: Book.book.pages,
+      genre: Book.book.genre,
+      pageProgress: 0,
+      capProgress: 0,
+    },
+  }
   const handleSaveBook = () => {
     if (!bookSaved) {
-      localStorage.setItem(Book.book.ISBN, JSON.stringify(Book))
+      localStorage.setItem(Book.book.ISBN, JSON.stringify(parseBookProgress))
       setBookSaved(true)
     } else {
       localStorage.removeItem(Book.book.ISBN)
