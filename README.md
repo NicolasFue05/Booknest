@@ -175,7 +175,7 @@ git remote -v # confirm the changes
 ```
 
 <div align="right">
-  <a href="readme-top">
+  <a href="#readme-top">
     Back to Top 🡩
   </a>
 </div>
