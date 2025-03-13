@@ -64,8 +64,9 @@ The filters will cooming soon. In this case we have 3 diffent's kind of filters.
 The mobile version is coming soon.
 The responsive version of this website is coming soon and may have the following styles:
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/0b704876-c103-4c2f-b120-bc4325cd65ab" width=300 height=600 marginRight=20 >
+  <img src="https://github.com/user-attachments/assets/0b704876-c103-4c2f-b120-bc4325cd65ab" width=300 height=600>
   <img src="https://github.com/user-attachments/assets/414f82fe-be88-4e2f-bf7f-a404e2e01c59" width=300 height=600>
+  <img src="https://github.com/user-attachments/assets/c4dc7853-9bb6-4d34-8763-49daa0922a24" width=300 height=600>
 </div>
 
 ## Expanding the ESLint configuration
