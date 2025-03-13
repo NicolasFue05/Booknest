@@ -22,6 +22,7 @@
     <li><a href="#pages">Pages</a></li>
   </ol>
 </details>
+<hr/>
 
 ## About the project
 
@@ -80,6 +81,7 @@ The responsive version of this website is coming soon and may have the following
 </div>
 
 ## Pages
+
 ### Home Page
 The home page has some recommended books and some of the most read books.
 <br/>
@@ -91,6 +93,12 @@ Showing a couple of books from our local database:
 
 <div align='center'>
   <img src="https://github.com/user-attachments/assets/29bfd441-5bbc-42cd-8f4a-4053a26e1ff8">
+</div>
+### Book Page
+
+The books page contains all the books in the local database.
+<div align='center'>
+  <img src="https://github.com/user-attachments/assets/40e4772a-20dd-4319-81f7-85c83cd772e5">
 </div>
 
 ## Expanding the ESLint configuration
