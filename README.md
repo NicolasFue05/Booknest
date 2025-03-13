@@ -42,7 +42,7 @@ One day I was just reading a book and needed something to keep track of the page
 - [Prettier](https://prettier.io/docs/install) for Format Code
 - [ESLint](https://eslint.org) for Catch Errors [PrettierConf](#expanding-the-eslint-configuration)
 
-<div align="right">
+<div align="center">
   <a href="top">
     <box-icon name='arrow-from-bottom'></box-icon>
   </a>
