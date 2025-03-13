@@ -3,13 +3,10 @@ import LibraryTitle from '../../components/ui/features/titles/libraryTitle'
 import books from '../../data/books'
 
 export default function LibraryPage() {
-  // Obtener todos los libros guardados en el localStorage
   const savedBooks = books.filter((book) => {
-    // Obtener el valor del ISBN guardado en localStorage
     const savedBook = localStorage.getItem(book.book.ISBN)
 
     if (savedBook) {
-      // Parsear el libro guardado desde el JSON string
       const parsedBook = JSON.parse(savedBook)
 
       return parsedBook.book.ISBN === book.book.ISBN
@@ -17,11 +14,10 @@ export default function LibraryPage() {
 
     return false
   })
-
   return (
     <section className="library">
       <LibraryTitle />
-      <div className="flex flex-wrap gap-5 ">
+      <div className="ml-5 flex flex-wrap gap-5 ">
         {savedBooks.length > 0 ? (
           savedBooks.map((bookItem) => (
             <Book
@@ -32,7 +28,7 @@ export default function LibraryPage() {
             />
           ))
         ) : (
-          <p>No saved books found</p> // Mensaje si no hay libros guardados
+          <p>No saved books found</p>
         )}
       </div>
     </section>

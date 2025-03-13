@@ -5,7 +5,7 @@ import PageProgress from '../features/progress/pageProgress'
 import SaveButton from '../features/buttons/saveChanges'
 import ProgressBar from '../features/progress/progressBar'
 
-export default function BookInformation({ book, closeBookInfo }) {
+export default function BookInformation({ book, closeBookInfo, UpdateBooks }) {
   const [isClosed, setIsClosed] = useState(false)
 
   const storedBook = localStorage.getItem(book.book.ISBN)
@@ -116,7 +116,11 @@ export default function BookInformation({ book, closeBookInfo }) {
                   capProgress={capProgress}
                 />
               )}
-              <BookButton Book={parseBookProgress} isSaved={isSaved} />
+              <BookButton
+                Book={parseBookProgress}
+                UpdateBooks={UpdateBooks}
+                isSaved={isSaved}
+              />
             </div>
           </div>
         </section>
