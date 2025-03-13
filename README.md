@@ -61,9 +61,9 @@ The filters will cooming soon. In this case we have 3 diffent's kind of filters.
 - A search type input to filter books by title, author
 - A genre selector to filter movies by genre
 - A page filter to show certain books depending on the pages
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/d44cb452-f55e-4a42-a227-4c6df748723a" width=300 height=600>
-</div>
+
+![image](https://github.com/user-attachments/assets/fa1d97fe-3718-4f13-867b-3aa165d4a66c)
+
 
 ### Mobile
 
