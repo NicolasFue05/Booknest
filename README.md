@@ -44,8 +44,7 @@ One day I was just reading a book and needed something to keep track of the page
 
 <div align="center">
   <a href="top">
-    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAAAAXNSR0IArs4c6QAAAL5JREFUOE/d1IsJwkAQRdGXTuwk2olWEq1ES9FKtBS5MCsbyXxAguJAICThMG93NoNWqGEFU19H95Kukh5ZumqngGcDdxlcQRvYGqTTEM7QvsNNFzuEI7QHTxafNb1JmqKl8NAePBhwt40i+jGCPRSAAqQ7ovco7xpMCu5f5aEgXIDUEspzEl3eRyzbqPa9hy6O7H+iW5uCts7uaa3Gz4777L2HMiJjUWKkZt17KD8PxqVSHIYSWsF+Y00/6vQJAeYxFjOLY6oAAAAASUVORK5CYII="/>
-  </a>
+    Volver
 </div>
 
 ## Soon ![image](https://github.com/user-attachments/assets/5dabfa4d-39ab-407a-8b29-d264285ec00b)
