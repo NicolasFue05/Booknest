@@ -48,11 +48,7 @@ One day I was just reading a book and needed something to keep track of the page
   </a>
 </div>
 
-
-<div align="center">
-  <img src="https://github.com/user-attachments/assets/5dabfa4d-39ab-407a-8b29-d264285ec00b" width=250 height=50>
-</div>
-
+# Soon
 
 ### Filters
 
@@ -62,7 +58,9 @@ The filters will cooming soon. In this case we have 3 diffent's kind of filters.
 - A genre selector to filter movies by genre
 - A page filter to show certain books depending on the pages
 
-![image](https://github.com/user-attachments/assets/fa1d97fe-3718-4f13-867b-3aa165d4a66c)
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/fa1d97fe-3718-4f13-867b-3aa165d4a66c">
+</div>
 
 
 ### Mobile
