@@ -48,7 +48,7 @@ One day I was just reading a book and needed something to keep track of the page
 - [ESLint](https://eslint.org) for Catch Errors [PrettierConf](#expanding-the-eslint-configuration)
 
 <div align="right">
-  <a href="top">
+  <a href="#top">
     Back to Top 🡩
   </a>
 </div>
@@ -80,7 +80,7 @@ The responsive version of this website is coming soon and may have the following
 </div>
 
 <div align="right">
-  <a href="top">
+  <a href="#top">
     Back to Top 🡩
   </a>
 </div>
@@ -107,6 +107,18 @@ Showing a couple of books from our local database:
 The books page contains all the books in the local database.
 <div align='center'>
   <img src="https://github.com/user-attachments/assets/40e4772a-20dd-4319-81f7-85c83cd772e5">
+</div>
+
+### Library Page
+The library page allows you to view your saved books and their progress, and you can also modify their progress.
+<div align='center'>
+  <img src="https://github.com/user-attachments/assets/8ae0360b-a3f1-4d7c-9f03-02c254f89c0c">
+</div>
+
+<div align="right">
+  <a href="#top">
+    Back to Top 🡩
+  </a>
 </div>
 
 <hr/>
